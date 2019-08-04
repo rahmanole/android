@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/simple"
+        android:title="Simple"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/withAction"
+        android:title="With action"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/colored"
+        android:title="Colored"
+        app:showAsAction="never"
+        />
+</menu>
