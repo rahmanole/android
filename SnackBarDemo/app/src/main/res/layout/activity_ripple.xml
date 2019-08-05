@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:menu="@menu/main_menu">
+
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"/>
@@ -41,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Custom Ripple with border"
+            android:background="@drawable/custom_ripple_bordered"
             android:textSize="25sp"
             android:onClick="dummyClick"
             android:padding="10dp"
@@ -50,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Custom Ripple without border"
+            android:background="@drawable/custom_ripple_border_less"
             android:textSize="25sp"
             android:onClick="dummyClick"
             android:padding="10dp"
